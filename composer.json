@@ -1,0 +1,24 @@
+{
+    "name": "br24/log-exceptions",
+    "description": "save exceptions in database",
+    "type": "library",
+    "authors": [
+        {
+            "name": "guhhlemos",
+            "email": "guhhlemos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Br24\\LogExceptions\\": "packages/br24/log-exceptions/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Br24\\LogExceptions\\LogExceptionsServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
