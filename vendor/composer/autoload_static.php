@@ -7,16 +7,16 @@ namespace Composer\Autoload;
 class ComposerStaticInitde85bbe271778e250818ffbb94766a03
 {
     public static $prefixLengthsPsr4 = array (
-        'B' => 
+        'G' => 
         array (
-            'Br24\\LogExceptions\\' => 19,
+            'Guhhlemos\\LogExceptions\\' => 24,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Br24\\LogExceptions\\' => 
+        'Guhhlemos\\LogExceptions\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/packages/br24/log-exceptions/src',
+            0 => __DIR__ . '/../..' . '/packages/guhhlemos/log-exceptions/src',
         ),
     );
 

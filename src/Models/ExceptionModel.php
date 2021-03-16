@@ -1,6 +1,6 @@
 <?php
 
-namespace Br24\LogExceptions\Models;
+namespace Guhhlemos\LogExceptions\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

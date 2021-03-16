@@ -1,6 +1,6 @@
 <?php 
 
-namespace Br24\LogExceptions\Facades;
+namespace Guhhlemos\LogExceptions\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

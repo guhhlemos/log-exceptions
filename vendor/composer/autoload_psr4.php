@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Br24\\LogExceptions\\' => array($baseDir . '/packages/br24/log-exceptions/src'),
+    'Guhhlemos\\LogExceptions\\' => array($baseDir . '/packages/guhhlemos/log-exceptions/src'),
 );

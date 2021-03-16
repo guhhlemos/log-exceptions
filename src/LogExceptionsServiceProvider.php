@@ -1,6 +1,6 @@
 <?php
 
-namespace Br24\LogExceptions;
+namespace Guhhlemos\LogExceptions;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -28,7 +28,7 @@ class LogExceptionsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // $this->app->make('Br24\LogExceptions\Models\ExceptionModel');
+        // $this->app->make('Guhhlemos\LogExceptions\Models\ExceptionModel');
 
         $this->app->singleton('LogExceptions', function () {
             return new LogExceptionsService();

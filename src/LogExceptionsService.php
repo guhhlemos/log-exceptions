@@ -1,8 +1,8 @@
 <?php 
 
-namespace Br24\LogExceptions;
+namespace Guhhlemos\LogExceptions;
 
-use Br24\LogExceptions\Models\ExceptionModel;
+use Guhhlemos\LogExceptions\Models\ExceptionModel;
 
 class LogExceptionsService {
 
