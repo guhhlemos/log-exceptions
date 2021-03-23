@@ -9,7 +9,7 @@ class LogExceptionsServiceProvider extends ServiceProvider
     /**
      * @var bool
      */
-    protected $defer = true;
+    // protected $defer = true;
 
     /**
      * Bootstrap the application services.
@@ -19,6 +19,7 @@ class LogExceptionsServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
+        // dd('uow');
     }
 
     /**
@@ -28,10 +29,10 @@ class LogExceptionsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // $this->app->make('Guhhlemos\LogExceptions\Models\ExceptionModel');
+        // $this->app->make('Guhhlemos\LogExceptionsceptions\Models\ExceptionModel');
 
-        $this->app->singleton('LogExceptions', function () {
-            return new LogExceptionsService();
+        $this->app->singleton(LogExceptions::class, function () {
+            return new LogExceptions;
         });
     }
 
@@ -40,6 +41,6 @@ class LogExceptionsServiceProvider extends ServiceProvider
      */
     // public function provides()
     // {
-    //     return array('LogExceptions');
+    //     return array('LogExceptionsceptions');
     // }
 }

@@ -1,16 +1,16 @@
 {
     "name": "guhhlemos/log-exceptions",
-    "description": "save exceptions in database",
-    "type": "library",
+    "description": "testes de pacote com laravel",
     "authors": [
         {
             "name": "guhhlemos",
             "email": "guhhlemos@gmail.com"
         }
     ],
+    "require": {},
     "autoload": {
         "psr-4": {
-            "Guhhlemos\\LogExceptions\\": "packages/guhhlemos/log-exceptions/src"
+            "Guhhlemos\\LogExceptions\\": "src/"
         }
     },
     "extra": {
@@ -19,6 +19,5 @@
                 "Guhhlemos\\LogExceptions\\LogExceptionsServiceProvider"
             ]
         }
-    },
-    "require": {}
+    }
 }

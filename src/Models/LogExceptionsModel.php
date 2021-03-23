@@ -4,7 +4,7 @@ namespace Guhhlemos\LogExceptions\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ExceptionModel extends Model {
+class LogExceptionsModel extends Model {
 
     /**
      * Nome da tabela.

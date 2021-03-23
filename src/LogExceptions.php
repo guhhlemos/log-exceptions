@@ -2,17 +2,17 @@
 
 namespace Guhhlemos\LogExceptions;
 
-use Guhhlemos\LogExceptions\Models\ExceptionModel;
+use Guhhlemos\LogExceptions\Models\LogExceptionsModel;
 
-class LogExceptionsService {
+class LogExceptions {
 
     /**
      * @param $exception
      * @return void
      */
-    public function save($exception)
+    public static function save($exception)
     {
-        $ex = new ExceptionModel();
+        $ex = new LogExceptionsModel();
         $ex->name = $exception->getMessage();
         $ex->file = $exception->getFile();
         $ex->line = $exception->getLine();
