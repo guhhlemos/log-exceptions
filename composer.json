@@ -1,6 +1,6 @@
 {
     "name": "guhhlemos/log-exceptions",
-    "description": "testes de pacote com laravel",
+    "description": "save laravel exceptions in database",
     "authors": [
         {
             "name": "guhhlemos",
