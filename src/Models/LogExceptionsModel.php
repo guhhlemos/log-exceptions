@@ -12,6 +12,4 @@ class LogExceptionsModel extends Model {
      * @var string
      */
     protected $table = 'exceptions';
-
-    const UPDATED_AT = null;
 }
