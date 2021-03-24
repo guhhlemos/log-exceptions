@@ -14,7 +14,7 @@ class CreateExceptionsTable extends Migration
     public function up()
     {
         Schema::create('exceptions', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->text('name');
             $table->text('file');
             $table->integer('line');
